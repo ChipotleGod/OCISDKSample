@@ -1,0 +1,19 @@
+
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\General.targets" />
+  <PropertyGroup>
+    <ProjectGuid>{C0548119-DA70-4D7C-947C-0AD8529B5382}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <PackageId>OCI.DotNetSDK.Dataintegration</PackageId>
+    <RootNamespace>Oci.DataintegrationService</RootNamespace>
+    <Authors>Oracle Cloud Infrastructure</Authors>
+    <Company>Oracle</Company>
+    <PackageTags>Oracle;OCI;Cloud;oci-sdk;OracleCloudInfrastructure;Dataintegration</PackageTags>
+    <Description>Data Integration is a fully managed service that helps data engineers and ETL developers with common extract, load, and transform (ETL) tasks such as ingesting data from a variety of data assets, cleansing, transforming, and reshaping that data, and then efficiently loading it to target data assets.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\OCI.DotNetSDK.Common.csproj"/>
+  </ItemGroup>
+</Project>

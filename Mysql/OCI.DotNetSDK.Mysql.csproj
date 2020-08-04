@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\General.targets" />
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <PackageId>OCI.DotNetSDK.Mysql</PackageId>
+    <RootNamespace>Oci.MysqlService</RootNamespace>
+    <Authors>Oracle Cloud Infrastructure</Authors>
+    <Company>Oracle</Company>
+    <PackageTags>Oracle;OCI;Cloud;oci-sdk;OracleCloudInfrastructure;Mysql</PackageTags>
+    <Description>MySQL Database is a fully managed database service that enables organizations to deploy cloud-native applications using the world’s most popular open source database. It is 100% compatible with On-Premises MySQL for a seamless transition to public or hybrid cloud. Leverage your existing Oracle investments and easily integrate MySQL Database Service with Oracle technologies.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\OCI.DotNetSDK.Common.csproj"/>
+  </ItemGroup>
+</Project>
